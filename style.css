@@ -1,0 +1,39 @@
+/* Other website styles */
+.centered-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: [Logo Width in pixels]; /* Adjust logo width as needed */
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Stack elements vertically */
+  }
+
+body {
+    background-color: rgb(255, 255, 255);
+  }
+
+
+/* Other website styles */
+.about-us {
+    background-image: url("images/about-background.jpg"); /* Replace with your image path */
+    background-size: cover; /* Resize image to cover the container */
+    background-position: center; /* Center the image horizontally and vertically */
+    color: rgb(0, 0, 0); /* Text color for readability over the background image */
+    padding: 50px; /* Add padding for spacing between text and edges */
+    text    
+  }
+  
+  .about-us h2 {
+    text-align: center; /* Center the heading text */
+    margin-bottom: 20px; /* Add space between heading and paragraph */
+  }
+  
+  .about-us p {
+    line-height: 1.5; /* Adjust line spacing for better readability */
+  }
+  
